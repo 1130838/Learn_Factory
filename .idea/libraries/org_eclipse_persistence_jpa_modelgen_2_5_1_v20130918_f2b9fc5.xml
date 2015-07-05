@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.eclipse.persistence.jpa.modelgen_2.5.1.v20130918-f2b9fc5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/org.eclipse.persistence.jpa.modelgen_2.5.1.v20130918-f2b9fc5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

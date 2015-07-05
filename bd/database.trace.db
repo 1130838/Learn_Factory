@@ -1,0 +1,168 @@
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+ALTER TABLE SMALLCAR DROP CONSTRAINT FK_SMALLCAR_CARID [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+ALTER TABLE LUXURYCAR DROP CONSTRAINT FK_LUXURYCAR_CARID [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+DROP TABLE CAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+DROP TABLE SMALLCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+DROP TABLE LUXURYCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+DROP TABLE CAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+DROP TABLE SMALLCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+DROP TABLE LUXURYCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+DROP TABLE CAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+DROP TABLE SMALLCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+DROP TABLE LUXURYCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+DROP TABLE CAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+DROP TABLE SMALLCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+DROP TABLE LUXURYCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+DROP TABLE CAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+DROP TABLE SMALLCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+DROP TABLE LUXURYCAR [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" not found; SQL statement:
+SELECT SEQ_NAME FROM SEQUENCE WHERE SEQ_NAME <> SEQ_NAME [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" not found; SQL statement:
+DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN' [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:01:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" not found; SQL statement:
+SELECT SEQ_NAME FROM SEQUENCE WHERE SEQ_NAME <> SEQ_NAME [42102-171]
+07-05 12:05:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:05:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:05:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:07:24 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:07:24 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:07:24 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:10:49 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:10:49 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:10:49 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:12:34 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:12:34 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:12:34 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:12:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:12:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:12:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:15:48 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:15:48 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:15:48 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:41:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:41:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:41:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:43:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:43:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:43:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:45:46 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:45:46 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:45:46 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:47:44 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:47:44 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:47:44 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]
+07-05 12:49:05 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CAR" not found; SQL statement:
+SELECT CARID FROM CAR WHERE CARID <> CARID [42102-171]
+07-05 12:49:05 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SMALLCAR" not found; SQL statement:
+SELECT CARID FROM SMALLCAR WHERE CARID <> CARID [42102-171]
+07-05 12:49:05 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "LUXURYCAR" not found; SQL statement:
+SELECT CARID FROM LUXURYCAR WHERE CARID <> CARID [42102-171]

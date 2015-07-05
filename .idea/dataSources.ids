@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 - database" uuid="0061d124-89f5-40ef-b9d4-a240aeee80c7">
+    <database-info product="H2" version="1.3.175 (2014-01-18)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.175 (2014-01-18)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="DATABASE"/>
+    <table name="CAR" schema="PUBLIC" catalog="DATABASE" type="TABLE">
+      <column name="CARID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="DTYPE" sqlType="VARCHAR" precision="31" scale="0" nullable="true" jdbcType="12"/>
+      <column name="BRAND" sqlType="VARCHAR" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="HORSEPOWER" sqlType="INTEGER" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="MODEL" sqlType="INTEGER" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="CONSTRAINT_1" columns="CARID"/>
+      <exported-key name="FK_LUXURYCAR_CARID" table="LUXURYCAR" schema="PUBLIC" catalog="DATABASE" columns="CARID"/>
+      <exported-key name="FK_SMALLCAR_CARID" table="SMALLCAR" schema="PUBLIC" catalog="DATABASE" columns="CARID"/>
+    </table>
+    <table name="LUXURYCAR" schema="PUBLIC" catalog="DATABASE" type="TABLE">
+      <column name="CARID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="LUXURYCARID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="CONSTRAINT_4" columns="CARID"/>
+      <foreign-key name="FK_LUXURYCAR_CARID" columns="CARID" ref-table="CAR" ref-schema="PUBLIC" ref-catalog="DATABASE" ref-columns="CARID" update-rule="1" delete-rule="1" deferrability="2"/>
+    </table>
+    <table name="SEQUENCE" schema="PUBLIC" catalog="DATABASE" type="TABLE">
+      <column name="SEQ_NAME" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SEQ_COUNT" sqlType="DECIMAL" precision="38" scale="0" nullable="true" jdbcType="3"/>
+      <primary-key name="CONSTRAINT_7" columns="SEQ_NAME"/>
+    </table>
+    <table name="SMALLCAR" schema="PUBLIC" catalog="DATABASE" type="TABLE">
+      <column name="CARID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="SMALLCARID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="CONSTRAINT_A" columns="CARID"/>
+      <foreign-key name="FK_SMALLCAR_CARID" columns="CARID" ref-table="CAR" ref-schema="PUBLIC" ref-catalog="DATABASE" ref-columns="CARID" update-rule="1" delete-rule="1" deferrability="2"/>
+    </table>
+  </data-source>
+</component>
